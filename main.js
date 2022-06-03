@@ -278,7 +278,7 @@ var showMogus = () => {
     document.getElementById("Amogus").style.display = "block";
 }
 
-var amogus = 0;
+var amog = 0;
 document.addEventListener("keyup", function(event) {
     keyTestAmog(40,0);
 });
