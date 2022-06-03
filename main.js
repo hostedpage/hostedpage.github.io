@@ -258,7 +258,9 @@ setTimeout(()=>{
 }
 
 
-askQuestion("intro","What is the most recent math course you have taken?","Geometry","Algebra 1","Algebra 2",[]);
+setTimeout(()=>{
+    askQuestion("intro","What is the most recent math course you have taken?","Geometry","Algebra 1","Algebra 2",[]);
+},100)
 
 
 
