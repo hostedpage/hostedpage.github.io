@@ -263,7 +263,25 @@ setTimeout(()=>{
 },100)
 
 
+function keyTestAmog(keyNum,amogNum) {
+    if (amog===amogNum&&event.keyCode===keyNum){
+        amog++;
+        showMogus();
+    } else {
+        amog = 0;   
+    }
+    
+}
 
+
+var showMogus = () => {
+    document.getElementById("Amogus").style.display = "block";
+}
+
+var amogus = 0;
+document.addEventListener("keyup", function(event) {
+    keyTestAmog(40,0);
+});
 
 
 
